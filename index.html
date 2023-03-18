@@ -13,17 +13,29 @@
   <p id="description">thank you for taking your time to help micronunt to improve their skills.</p>
 
   <form id="survey-form">
-    <input id="name" type="text" placeholder="enter your name">
     <label id="name-label"> name</label>
-    <input id="email" type="email" placeholder="enter your email">
+    <input id="name" type="text" placeholder="enter your name" required>
     <label id="email-label"> email</label>
-    <input id="number" type="number" max="10" min="0" placeholder="enter your phone number">
+    <input id="email" type="email" placeholder="enter your email" required>
     <label id="number-label"> number</label>
+    <input id="number" type="number" max="10" min="0" placeholder="enter your phone number">
     <select id="dropdown">
-      <option> <input type="radio" value="Esther" name="names" value="Esther"> Esther
-      </option>
-      <option> <input type="radio" value="Mohammed" name="names" value="Mohammed">Mohammed</option>
+      <option value="esther" name="hey">Esther</option>
+      <option value="moha" name="hey">Moha</option>
     </select>
+
+    <input type="radio" value="Esther" name="names" value="Esther"> Esther
+
+    <input type="radio" value="Mohammed" name="names" value="Mohammed">Mohammed
+
+
+    <input type="checkbox" value="Esther" name="namess" value="Esther"> Esther
+
+    <input type="checkbox" value="Mohammed" name="namess" value="Mohammed">Mohammed
+    <textarea></textarea>
+    <button id="submit">Submit</button>
+    <div class=""></div>
+
   </form>
 
   <script src="js/index.js"></script>
